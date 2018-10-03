@@ -69,7 +69,7 @@ namespace CalculatorLibrary
         public static double Average(double[] numbers)
         {
             double aver = numbers[0];
-            for (int i = 1; i < numbers.Length; i++)
+            for (int i = 1; i < numbers.Length; i++) 
             {
                 aver += numbers[i];
             }
